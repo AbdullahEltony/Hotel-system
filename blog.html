@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hiroto | Template</title>
+    <!-- bootstrap file  -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- main css file  -->
+    <link rel="stylesheet" href="css/hiroto.css">
+    <!-- Font awesom file  -->
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+<body>
+    <!-- start header -->
+    <header>
+      <div class="header__top bg-light py-3 d-none d-lg-block">
+       <div class="container">
+           <div class="row justify-content-between c-info">
+               <div class="col lg-7">
+                       <ul class="d-flex addres-bar">
+                           <li class="me-5">
+                               <i class="fa-solid fa-location-dot me-2"></i>
+                               96 Ernser Vista Suite 437, NY, US
+                           </li>
+                           <li>
+                               <i class="fa-solid fa-phone me-2"></i>
+                               (123) 456-78-910
+                           </li>
+                       </ul>
+               </div>
+               <div class="col-lg-5">
+                   <div class="logen d-flex justify-content-end align-items-center">
+                       <div class="me-5">
+                           <a href="#" class="after">login</a>
+                           <a href="#">Register</a>
+                        </div>
+                        <div class="lang d-flex align-items-center">
+                            <div class="img-lang me-2">
+                                <img src="images/logo-images/lan.png.webp" alt="">
+                            </div>
+                           <select name="lang" id="lang">
+                             <option value="English">English</option>
+                             <option value="English">Arabic</option>
+                           </select>
+                        </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+      </div>
+      <div class="header__nav bg-dark">
+       <div class="container">
+         <nav class="navbar navbar-expand-lg bg-body-tertiary">
+           <div class="container-fluid">
+             <a class="navbar-brand" href="#"><img src="images/logo-images/logo.png.webp" alt=""></a>
+             <button class="navbar-toggler"type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">
+               <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
+             </button>
+
+               <!-- start  offcanvas navbar  -->
+             <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+               <div class="offcanvas-header bg-dark text-center">
+                 <h5 class="offcanvas-title" id="offcanvasScrollingLabel"><img src="images/logo-images/logo.png.webp" alt=""></h5>
+                 <button type="button" class="btn-close text-light bg-light" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+               </div>
+               <div class="offcanvas-body bg-dark text-center">
+                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                   <li class="nav-item mb-4">
+                     <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                   </li>
+                   <li class="nav-item mb-4">
+                     <a class="nav-link" href="room.html">Rooms</a>
+                   </li>
+                   <li class="nav-item mb-4">
+                     <a class="nav-link" href="about.html">About Us</a>
+                   </li>
+                   <li class="nav-item mb-4">
+                     <a class="nav-link active" href="blog.html">News</a>
+                   </li>
+                   <li class="nav-item b-4">
+                     <a class="nav-link" href="contact.html">Contact</a>
+                   </li>
+                 </ul>
+                 <form class="d-flex justify-content-center" role="search">
+                   <button class="book-btn">Book Now <i class="fa-solid fa-arrow-right-long"></i></button>
+                 </form>
+               </div>
+             </div>
+             
+              <!-- end  offcanvas navbar  -->
+
+             <div class="collapse navbar-collapse" id="navbarSupportedContent">
+               <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                 <li class="nav-item">
+                   <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                 </li>
+                 <li class="nav-item">
+                   <a class="nav-link" href="room.html">Rooms</a>
+                 </li>
+                 <li class="nav-item">
+                   <a class="nav-link" href="about.html">About Us</a>
+                 </li>
+                 <li class="nav-item">
+                   <a class="nav-link active" href="blog.html">News</a>
+                 </li>
+                 <li class="nav-item">
+                   <a class="nav-link" href="contact.html">Contact</a>
+                 </li>
+               </ul>
+               <form class="d-flex" role="search">
+                 <button class="book-btn">Book Now <i class="fa-solid fa-arrow-right-long"></i></button>
+               </form>
+             </div>
+           </div>
+         </nav>
+       </div>
+      </div>
+</header>
+<!-- End header -->
+<!-- start comman section  -->
+<section class="hero comman__section">
+<div class="container">
+<div class="row">
+ <div class="col-lg-12">
+   <div class="text-hero">
+     <h2 class="mb-2">Our Blog</h2>
+     <div class="breakcump__links">
+      <a class="text-light fs-5" href="home.html">Home</a>
+      <i class="fa-solid fa-angle-right text-light mx-2"></i>
+      <span class="text-white-50 fs-6">Blog</span>
+     </div>
+   </div>
+ </div>
+</div>
+</div>
+</section>
+<!-- end comman section  -->
+<!-- start blog page  -->
+<section class="blog">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-8">
+                <div class="blog__item_large mb-5">
+                    <div class="blog_item_img">
+                        <img src="images/blog-images/blog-large.jpg.webp"class="img-fluid" alt="">
+                    </div>
+                    <div class="blog_item_text">
+                        <p class="mt-3 mb-2">
+                            <i class="fa-regular fa-clock"></i>
+                            01th March, 2019
+                        </p>
+                        <h4><a href="#">Classifieds are usually the first place you think of when you are</a></h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="blog_item mb-5">
+                            <div class="blog_item_img">
+                                <img src="images/blog-images/blog-1.jpg.webp" class="img-fluid" alt="">
+                            </div>
+                            <div class="blog_item_text">
+                                <p class="mt-3 mb-2 fs-6">
+                                    <i class="fa-regular fa-clock"></i>
+                                    02th March, 2019
+                                </p>
+                                <h4><a href="#">Guests think these services would be</a></h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="blog_item mb-5">
+                            <div class="blog_item_img">
+                                <img src="images/blog-images/blog-2.jpg.webp" class="img-fluid" alt="">
+                            </div>
+                            <div class="blog_item_text">
+                                <p class="mt-3 mb-2 fs-6">
+                                    <i class="fa-regular fa-clock"></i>
+                                    03th March, 2019
+                                </p>
+                                <h4><a href="#">Europe's 2018 hotel strengths belie</a></h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="blog_item mb-5">
+                            <div class="blog_item_img">
+                                <img src="images/blog-images/blog-3.jpg.webp" class="img-fluid" alt="">
+                            </div>
+                            <div class="blog_item_text">
+                                <p class="mt-3 mb-2 fs-6">
+                                    <i class="fa-regular fa-clock"></i>
+                                    04th March, 2019
+                                </p>
+                                <h4><a href="#">Tribute Portfolio opens The Alida in</a></h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="blog_item mb-5">
+                            <div class="blog_item_img">
+                                <img src="images/blog-images/blog-4.jpg (1).webp" class="img-fluid" alt="">
+                            </div>
+                            <div class="blog_item_text">
+                                <p class="mt-3 mb-2 fs-6">
+                                    <i class="fa-regular fa-clock"></i>
+                                    05th March, 2019
+                                </p>
+                                <h4><a href="#">Rocco Forte Hotels unveils its second</a></h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="blog_item mb-5">
+                            <div class="blog_item_img">
+                                <img src="images/blog-images/blog-5.jpg.webp" class="img-fluid" alt="">
+                            </div>
+                            <div class="blog_item_text">
+                                <p class="mt-3 mb-2 fs-6">
+                                    <i class="fa-regular fa-clock"></i>
+                                    07th March, 2019
+                                </p>
+                                <h4><a href="#">Tribute Portfolio opens The Alida in</a></h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="blog_item mb-5">
+                            <div class="blog_item_img">
+                                <img src="images/blog-images/blog-4.jpg (1).webp" class="img-fluid" alt="">
+                            </div>
+                            <div class="blog_item_text">
+                                <p class="mt-3 mb-2 fs-6">
+                                    <i class="fa-regular fa-clock"></i>
+                                    05th March, 2019
+                                </p>
+                                <h4><a href="#">Rocco Forte Hotels unveils its second</a></h4>
+                            </div>
+                        </div>
+                    </div>
+                    <nav aria-label="Page navigation example">
+                        <ul class="pagination">
+                          <li class="page-item"><a class="page-link" href="#">1</a></li>
+                          <li class="page-item"><a class="page-link" href="#">2</a></li>
+                          <li class="page-item"><a class="page-link" href="#">Next <i class="fa-solid fa-arrow-right-long ms-2"></i></a></li>
+                        </ul>
+                      </nav>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4">
+                <aside>
+                    <div class="aside_search">
+                        <h4 class="mb-3">Search</h4>
+                        <form action="#">
+                            <input type="text" placeholder="Search...">
+                            <button type="submit">Search</button>
+                        </form>
+                    </div>
+                    <div class="aside_recent">
+                        <h4 class="mb-4">Recent Posts</h4>
+                        <a href="#" class="aside_item d-flex mb-4">
+                            <div class="aside_item_img">
+                                <img src="images/blog-images/recent-1.jpg.webp" class="img-fluid"alt="">
+                            </div>
+                            <div class="asid_item_text ms-4">
+                                <h6 class="text-dark fw-semibold">Smart HVAC Solutions Keep It</h6>
+                                <p class="mt-3 mb-2">
+                                    <i class="fa-regular fa-clock"></i>
+                                    01th March, 2019
+                                </p>
+                            </div>
+                        </a>
+                        <a href="#" class="aside_item d-flex d-flex mb-4">
+                            <div class="aside_item_img">
+                                <img src="images/blog-images/recent-2.jpg.webp" class="img-fluid"alt="">
+                            </div>
+                            <div class="asid_item_text ms-4">
+                                <h6 class="text-dark fw-semibold">Guests think these services</h6>
+                                <p class="mt-3 mb-2">
+                                    <i class="fa-regular fa-clock"></i>
+                                    01th March, 2019
+                                </p>
+                            </div>
+                        </a>
+                        <a href="#" class="aside_item d-flex d-flex mb-4">
+                            <div class="aside_item_img">
+                                <img src="images/blog-images/recent-3.jpg.webp" class="img-fluid"alt="">
+                            </div>
+                            <div class="asid_item_text ms-4">
+                                <h6 class="text-dark fw-semibold">Europe's 2018 hotel strengths</h6>
+                                <p class="mt-3 mb-2">
+                                    <i class="fa-regular fa-clock"></i>
+                                    01th March, 2019
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="aside_catigory">
+                        <h4 class="mb-4">Categories</h4>
+                        <ul>
+                            <li><a href="#">Life Style</a></li>
+                            <li><a href="#">Photography</a></li>
+                            <li><a href="#">Work</a></li>
+                            <li><a href="#">Travel</a></li>
+                            <li><a href="#">Sport</a></li>
+                        </ul>
+                    </div>
+                    <div class="aside_comments">
+                        <h4 class="mb-4">Recent Comments</h4>
+                        <p class="mb-3">Attending a trade show can be a very effective method of promoting your company and its</p>
+                        <span>Smart HVAC Solutions Keep It Comfortable</span>
+                        <p class="mb-3">When I was just starting 6th grade I got my first job. Paperboy! Boy, was I excited. At that</p>
+                        <span>Guests think these services would be easier</span>
+                        <p class="mb-3">Classifieds are usually the first place you think of when you are getting ready to make a</p>
+                        <span>Europe's 2018 hotel strengths belie</span>
+                    </div>
+                    <div class="aside_tags">
+                        <h4 class="mb-4">Popular Tags</h4>
+                        <a href="#">Creative</a>
+                        <a href="#">Uniqe</a>
+                        <a href="#">Travel</a>
+                        <a href="#">Restaurant</a>
+                        <a href="#">Workpress Template</a>
+                        <a href="#">Idea</a>
+                        <a href="#">Hotel</a>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end blog page  -->
+<!-- start footer  -->
+<footer>
+    <div class="container">
+      <div id="carouselExampleRide" class="carousel slide carousel-footer" data-bs-ride="true">
+        <div class="carousel-inner">
+          <div class="carousel-item active d-flex justify-content-between">
+            <img src="images/logo-images/logo-1.png.webp" alt="...">
+            <img src="images/logo-images/logo-2.png.webp" alt="...">
+            <img src="images/logo-images/logo-3.png.webp" alt="...">
+            <img src="images/logo-images/logo-4.png.webp" alt="...">
+            <img src="images/logo-images/logo-5.png.webp" alt="...">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-3 col-md-6 col-sm-6">
+          <div class="footer__about mb-4">
+            <div class="footer__About__logo mb-4">
+              <img src="images/logo-images/logo.png.webp" alt="">
+            </div>
+            <h4 class="text-light mb-2">(123) 456-78-91096</h4>
+            <ul class="my-3">
+              <li>Ernser Vista Suite 437, NY</li>
+              <li>Info.colorlib@gmail.com</li>
+            </ul>
+            <div class="social-icons">
+              <i class="fa-brands fa-facebook-f mx-2 text-white-50"></i>
+              <i class="fa-brands fa-twitter mx-2 text-white-50"></i>
+              <i class="fa-brands fa-linkedin-in mx-2 text-white-50"></i>
+              <i class="fa-brands fa-youtube mx-2 text-white-50"></i>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-5 col-sm-6">
+        <h4 class="text-light mb-4">Quick Link</h4>
+        <div class="footer__links d-flex">
+          <ul class="me-5">
+            <li><a class="text-white-50" href="home.html">Home</a></li>
+            <li><a class="text-white-50" href="home.html">Booking</a></li>
+            <li><a class="text-white-50" href="about.html">About Us</a></li>
+            <li><a class="text-white-50" href="contact.html">Review</a></li>
+            <li><a class="text-white-50" href="contact.html">Contact</a></li>
+          </ul>
+          <ul>
+            <li><a class="text-white-50" href="home.html">ٍServices</a></li>
+            <li><a class="text-white-50" href="room.html">Our Room</a></li>
+            <li><a class="text-white-50" href="home.html">Restaurants</a></li>
+            <li><a class="text-white-50" href="contact.html">Payments</a></li>
+            <li><a class="text-white-50" href="home.html">Events</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-5 col-md-8 col-sm-12">
+        <div class="footer__news">
+          <h4 class="text-light mb-4">Subscribe our newlatester</h4>
+          <form action="#" class="mb-4">
+            <input type="text" placeholder="Yor E-mail Address">
+            <button type="submit">Subscribe</button>
+          </form>
+          <div class="footer__find">
+            <h5 class="text-capitalize text-light mb-2">Find Us:</h5>
+            <div class="find-links">
+              <a href="#"><i class="fa-brands fa-discord me-2 text-white-50"></i></a>
+              <a href="#"><i class="fa-regular fa-map mx-2 text-white-50"></i></a>
+              <a href="#"><i class="fa-brands fa-dribbble text-white-50 mx-2"></i></a>
+              <a href="#"><i class="fa-brands fa-forumbee text-white-50 mx-2"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <div class="row">
+        <div class="col-lg-7 col-md-7">
+          <div class="footer__copyight">
+            <p>Copyright © 2023 All rights reserved | This template is made with <i class="fa-solid fa-heart text-danger"></i> by <a href="#" class="text-white-50">Eraasoft</a></p>
+          </div>
+        </div>
+        <div class="col-lg-5 col-md-5">
+          <div class="footer__copyright__links">
+            <a href="#"class="text-white-50">Terms Of Use</a>
+            <a href="#"class="text-white-50">Privacy Polic</a>
+          </div>
+        </div>
+      </div>
+    </div>
+</footer>
+  <!-- end footer  -->
+    <script src="../js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
